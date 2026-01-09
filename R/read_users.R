@@ -6,14 +6,20 @@ read_users <- function() {
       "PZWm2wYAAAAJ",
       "UiXjYXsAAAAJ",
       "vn-A07gAAAAJ",
-      "UJper5AAAAAJ"
+      "UJper5AAAAAJ",
+      "vFoixy4AAAAJ",
+      "9kkHqvoAAAAJ",
+      "A3La3osAAAAJ"
     ),
     name = c(
       "Christovam Barcellos",
       "Diego Xavier",
       "Raphael Saldanha",
       "Renata Gracie",
-      "Ricardo Oliveira"
+      "Ricardo Oliveira",
+      "Marcel Pedroso",
+      "Raquel De Boni",
+      "Paulo Borges"
     )
   )
 }
