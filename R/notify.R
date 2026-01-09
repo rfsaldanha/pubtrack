@@ -1,3 +1,4 @@
+#' @export
 notify <- function(publications, ntfy_topic = "icict_new_publications") {
   for (i in 1:nrow(publications)) {
     title <- publications[[i, 1]]

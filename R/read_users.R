@@ -1,3 +1,4 @@
+#' @export
 read_users <- function() {
   tibble::tibble(
     user_id = c(

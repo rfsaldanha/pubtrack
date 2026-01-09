@@ -1,3 +1,4 @@
+#' @export
 fetch_publications <- function(users) {
   publications <- tibble::tibble()
 

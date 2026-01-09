@@ -1,3 +1,4 @@
+#' @export
 #' @importFrom rlang .data
 update_database <- function(publications, database, tb_name = "publications") {
   # Justify dbplyr use
