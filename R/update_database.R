@@ -49,7 +49,7 @@ update_database <- function(publications, database, tb_name = "publications") {
       DBI::dbDisconnect(conn = con)
 
       # Return new publications
-      message("Table already existis. New publications")
+      message("Table already exists. New publications are returned.")
       return(new_publications)
     }
   }

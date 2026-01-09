@@ -10,7 +10,7 @@ notify <- function(publications, ntfy_topic = "icict_new_publications") {
     ntfy::ntfy_send(
       message = glue::glue(
         stringi::stri_escape_unicode(
-          "O pesquisador {researcher} tem uma nova publica\\u00e7\\u00e3o!! T\\u00edtulo: '{title}', Autores: '{author}', Peri\\u00f3dico: '{journal}', Ano: '{year}'"
+          "O pesquisador {researcher} tem uma nova publicação!! Título: '{title}', Autores: '{author}', Periódico: '{journal}', Ano: '{year}'"
         )
       ),
       tags = ntfy::tags$partying_face,
