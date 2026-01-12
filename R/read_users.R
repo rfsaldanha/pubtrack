@@ -9,7 +9,8 @@ read_users <- function() {
       "UJper5AAAAAJ",
       "vFoixy4AAAAJ",
       "9kkHqvoAAAAJ",
-      "A3La3osAAAAJ"
+      "A3La3osAAAAJ",
+      "aR0BDGwAAAAJ"
     ),
     name = c(
       "Christovam Barcellos",
@@ -19,7 +20,8 @@ read_users <- function() {
       "Ricardo Oliveira",
       "Marcel Pedroso",
       "Raquel De Boni",
-      "Paulo Borges"
+      "Paulo Borges",
+      "Cristiano Boccolini"
     )
   )
 }
