@@ -18,6 +18,7 @@ Imports:
     duckdb,
     glue,
     ntfy,
+    readr,
     rlang,
     scholar,
     stringi,
