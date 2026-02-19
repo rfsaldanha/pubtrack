@@ -8,6 +8,11 @@ fetch_publications <- function(users) {
 
     message(name)
 
+    if (is.na(id)) {
+      message("No id for this user. Going for next...")
+      next
+    }
+
     tmp <- scholar::get_publications(id = id)
     tmp$id <- id
     tmp$name <- name
